@@ -1,0 +1,173 @@
+<main class="main">
+    <div class="container">
+        <div class="content-wrapper">
+
+            <div class="articles-section">
+
+                <section class="latest-articles">
+                    <h2 class="section-title">Последние статьи</h2>
+                    <div class="articles-grid">
+
+                        <article class="article-card featured">
+                            <div class="article-image">
+                                <div class="image-placeholder">
+                                    <img src="./img/Afe.png" class="img-place">
+                                </div>
+
+                                <span class="category-tag">Технологии</span>
+                            </div>
+                            <div class="article-content">
+                                <h3><a href="#">Искусственный интеллект в веб-разработке: будущее уже здесь</a></h3>
+                                <p class="article-meta">
+                                    <span class="author">Анна Петрова</span> •
+                                    <span class="date">15 марта 2024</span> •
+                                    <span class="reading-time">5 мин чтения</span>
+                                </p>
+                                <p class="article-excerpt">Как искусственный интеллект меняет подход к созданию веб-приложений и что ждет нас в ближайшем будущем...</p>
+                                <div class="article-footer">
+                                    <a href="#" class="read-more">Читать далее</a>
+                                    <span class="comments">12 комментариев</span>
+                                </div>
+                            </div>
+                        </article>
+
+
+                        <article class="article-card">
+                            <div class="article-image">
+                                <div class="image-placeholder">Изображение</div>
+                                <span class="category-tag">Дизайн</span>
+                            </div>
+                            <div class="article-content">
+                                <h3><a href="#">Тренды UI/UX дизайна в 2024 году</a></h3>
+                                <p class="article-meta">
+
+
+                                    <span class="author">Максим Иванов</span> •
+                                    <span class="date">12 марта 2024</span> •
+                                    <span class="reading-time">7 мин чтения</span>
+                                </p>
+                                <p class="article-excerpt">Обзор самых актуальных тенденций в пользовательских интерфейсах и опыте взаимодействия...</p>
+                                <div class="article-footer">
+                                    <a href="#" class="read-more">Читать далее</a>
+                                    <span class="comments">8 комментариев</span>
+                                </div>
+                            </div>
+                        </article>
+
+
+                        <article class="article-card">
+                            <div class="article-image">
+                                <div class="image-placeholder">Изображение</div>
+                                <span class="category-tag">Разработка</span>
+                            </div>
+                            <div class="article-content">
+                                <h3><a href="#">React vs Vue: какой фреймворк выбрать в 2024?</a></h3>
+                                <p class="article-meta">
+                                    <span class="author">Сергей Смирнов</span> •
+                                    <span class="date">10 марта 2024</span> •
+                                    <span class="reading-time">10 мин чтения</span>
+                                </p>
+                                <p class="article-excerpt">Подробное сравнение двух популярных фреймворков и рекомендации по выбору для вашего проекта...</p>
+                                <div class="article-footer">
+                                    <a href="#" class="read-more">Читать далее</a>
+                                    <span class="comments">15 комментариев</span>
+                                </div>
+                            </div>
+                        </article>
+
+
+                        <article class="article-card">
+                            <div class="article-image">
+                                <div class="image-placeholder">Изображение</div>
+                                <span class="category-tag">Продуктивность</span>
+                            </div>
+                            <div class="article-content">
+                                <h3><a href="#">10 инструментов для повышения продуктивности разработчика</a></h3>
+                                <p class="article-meta">
+                                    <span class="author">Ольга Козлова</span> •
+                                    <span class="date">8 марта 2024</span> •
+                                    <span class="reading-time">6 мин чтения</span>
+                                </p>
+                                <p class="article-excerpt">Эффективные инструменты и методики, которые помогут вам работать быстрее и качественнее...</p>
+                                <div class="article-footer">
+                                    <a href="#" class="read-more">Читать далее</a>
+                                    <span class="comments">5 комментариев</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+
+                <section class="popular-articles">
+
+
+                    <h2 class="section-title">Популярные статьи</h2>
+                    <div class="popular-list">
+                        <div class="popular-item">
+                            <span class="popular-rank">1</span>
+                            <div class="popular-content">
+                                <h4><a href="#">Как стать frontend-разработчиком в 2024 году</a></h4>
+                                <span class="views">2.5K просмотров</span>
+                            </div>
+                        </div>
+                        <div class="popular-item">
+                            <span class="popular-rank">2</span>
+                            <div class="popular-content">
+                                <h4><a href="#">CSS Grid vs Flexbox: когда что использовать</a></h4>
+                                <span class="views">1.8K просмотров</span>
+                            </div>
+                        </div>
+                        <div class="popular-item">
+                            <span class="popular-rank">3</span>
+                            <div class="popular-content">
+                                <h4><a href="#">Оптимизация производительности веб-сайтов</a></h4>
+                                <span class="views">1.5K просмотров</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+            <aside class="sidebar">
+
+                <div class="sidebar-widget">
+                    <h3>Категории</h3>
+                    <ul class="categories-list">
+                        <li><a href="#">Технологии <span>24</span></a></li>
+                        <li><a href="#">Дизайн <span>18</span></a></li>
+                        <li><a href="#">Разработка <span>32</span></a></li>
+                        <li><a href="#">Маркетинг <span>12</span></a></li>
+                        <li><a href="#">Карьера <span>9</span></a></li>
+                    </ul>
+                </div>
+
+                <!-- Подписка -->
+                <div class="sidebar-widget">
+                    <h3>Подписаться на рассылку</h3>
+                    <p>Получайте свежие статьи на почту</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email" required>
+                        <button type="submit">Подписаться</button>
+                    </form>
+                </div>
+
+
+                <div class="sidebar-widget">
+                    <h3>Популярные теги</h3>
+                    <div class="tags-cloud">
+                        <a href="#" class="tag">JavaScript</a>
+                        <a href="#" class="tag">React</a>
+                        <a href="#" class="tag">CSS</a>
+                        <a href="#" class="tag">UI/UX</a>
+                        <a href="#" class="tag">Веб-разработка</a>
+                        <a href="#" class="tag">Адаптивный дизайн</a>
+                        <a href="#" class="tag">TypeScript</a>
+                        <a href="#" class="tag">Node.js</a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</main>
