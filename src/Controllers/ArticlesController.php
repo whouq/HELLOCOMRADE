@@ -17,7 +17,7 @@ class ArticlesController
     public function index()
     {
         $articles = $this->articles->getArticles();
-        $path = $_SERVER['DOCUMENT_ROOT'].'../templates/pages/articles.php';
+        $path = TEMPLATES_PATH.'/pages/articles.php';
         $this->articleView->show($path, $articles);
     }
 

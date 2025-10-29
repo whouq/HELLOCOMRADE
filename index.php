@@ -14,8 +14,8 @@ $articles = new Articles();
 $articleView = new ArticlesViews();
 $articlesController = new ArticlesController($articles, $articleView);
 
-$url = parse_url($_SERVER['REQUEST_URI']);
-switch ($url['path']) {
+$uri = parse_url($_SERVER['REQUEST_URI']);
+switch ($uri['path']) {
     case '/':
         include_once './templates/pages/index.php';
         break;

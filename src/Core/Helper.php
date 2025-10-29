@@ -4,6 +4,8 @@ namespace App\Core;
 
 class Helper
 {
+
+    private $name;
     public function dd($something)
     {
         echo '<pre>';
